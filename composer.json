@@ -1,0 +1,13 @@
+{
+    "name": "buirb/mandrill-webhook-events-php",
+    "description": "Mandrill webhook events handlerr for php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "buibr",
+            "email": "burhan@wflux.pro"
+        }
+    ],
+    "require": {}
+}
