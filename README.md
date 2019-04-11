@@ -13,7 +13,7 @@ use buibr\MandrillEvents\Request;
 use buibr\MandrillEvents\Event;
 use buibr\MandrillEvents\Exception;
 
-$mandrill = new Request( );
+$mandrill = new Request( $secret );
     
 $mandrill->events(function(Event $event){
 

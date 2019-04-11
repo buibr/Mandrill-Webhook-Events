@@ -1,0 +1,104 @@
+$_GET = []
+
+$_POST = [
+    'mandrill_events' => '[{\"event\":\"send\",\"_id\":\"6f6cd540a25b4798a978d88840dc285e\",\"msg\":{\"ts\":1554976868,\"subject\":\"Merhaba,lig heyecanini youwinde yasayin! 15TL ve size ozel 250 TL\'ye kadar %200 bedava bahis sansini kacirmayin!\",\"email\":\"tlgcee@hotmail.com\",\"tags\":[],\"opens\":[],\"clicks\":[],\"state\":\"sent\",\"smtp_events\":[],\"subaccount\":null,\"resends\":[],\"reject\":null,\"_id\":\"6f6cd540a25b4798a978d88840dc285e\",\"sender\":\"contact@hepsibahisvip.com\",\"template\":null},\"ts\":1554976869},{\"event\":\"send\",\"_id\":\"fd20c59ae6c74df1a6924c4eed651fca\",\"msg\":{\"ts\":1554977144,\"subject\":\"Merhaba,lig heyecanini youwinde yasayin! 15TL ve size ozel 250 TL\'ye kadar %100 bedava bahis sansini kacirmayin!\",\"email\":\"firatgokren1@gmail.com\",\"tags\":[],\"opens\":[],\"clicks\":[],\"state\":\"sent\",\"smtp_events\":[],\"subaccount\":null,\"resends\":[],\"reject\":null,\"_id\":\"fd20c59ae6c74df1a6924c4eed651fca\",\"sender\":\"contact@hepsibahisvip.com\",\"template\":null},\"ts\":1554977144},{\"event\":\"send\",\"_id\":\"c6041d9576c64365ad9a7767c688f662\",\"msg\":{\"ts\":1554977351,\"subject\":\"Merhaba,lig heyecanini youwinde yasayin! 15TL ve size ozel 250 TL\'ye kadar %100 bedava bahis sansini kacirmayin!\",\"email\":\"kolselim7@gmail.com\",\"tags\":[],\"opens\":[],\"clicks\":[],\"state\":\"sent\",\"smtp_events\":[],\"subaccount\":null,\"resends\":[],\"reject\":null,\"_id\":\"c6041d9576c64365ad9a7767c688f662\",\"sender\":\"contact@hepsibahisvip.com\",\"template\":null},\"ts\":1554977351},{\"event\":\"send\",\"_id\":\"53e4578ecac84875a1e6b72583214665\",\"msg\":{\"ts\":1554978006,\"subject\":\"Merhaba,lig heyecanini youwinde yasayin! Size ozel 150 TL\'ye kadar %100 bedava bahis sansini kacirmayin!\",\"email\":\"alisari0638@gmail.com\",\"tags\":[],\"opens\":[],\"clicks\":[],\"state\":\"sent\",\"smtp_events\":[],\"subaccount\":null,\"resends\":[],\"reject\":null,\"_id\":\"53e4578ecac84875a1e6b72583214665\",\"sender\":\"contact@hepsibahisvip.com\",\"template\":null},\"ts\":1554978006}]'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_X_MANDRILL_SIGNATURE' => 'bqZGWuKf+FFCxmpKOEdVDBh/a4g='
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mandrill-Webhook/1.0'
+    'HTTP_CONTENT_LENGTH' => '2691'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'icenter.winbackloyalty.com'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_FORWARDED_FOR' => '52.13.74.27'
+    'HTTP_X_REAL_IP' => '52.13.74.27'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'icenter.winbackloyalty.com'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '192.168.131.250'
+    'REMOTE_PORT' => '50385'
+    'REMOTE_ADDR' => '192.168.131.233'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'HTTPS' => 'on'
+    'REQUEST_SCHEME' => 'https'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'DOCUMENT_ROOT' => '/var/www/iwinback-production/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/webhooks/mandrill/sent'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '2691'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/iwinback-production/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1554978491.6966
+    'REQUEST_TIME' => 1554978491
+]
+
+
+
+$_GET = []  $_POST = [     'mandrill_events' => '[{\"event\":\"send\",\"_id\":\"f4f4e7ba180243afbf70b71f72f2409b\",\"msg\":{\"ts\":1554978364,\"subject\":\"Merhaba,lig heyecanini youwinde yasayin! 15TL ve size ozel 250 TL\'ye kadar %200 bedava bahis sansini kacirmayin!\",\"email\":\"nesetkaya1@hotmail.com\",\"tags\":[],\"opens\":[],\"clicks\":[],\"state\":\"sent\",\"smtp_events\":[],\"subaccount\":null,\"resends\":[],\"reject\":null,\"_id\":\"f4f4e7ba180243afbf70b71f72f2409b\",\"sender\":\"contact@hepsibahisvip.com\",\"template\":null},\"ts\":1554978364}]' ]  $_FILES = []  $_COOKIE = []  $_SERVER = [     'USER' => 'www-data'     'HOME' => '/var/www'     'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'     'HTTP_X_MANDRILL_SIGNATURE' => 'wyIHcRQEP9+9bBw8HyvniHkTUCc='     'HTTP_ACCEPT' => '*/*'     'HTTP_USER_AGENT' => 'Mandrill-Webhook/1.0'     'HTTP_CONTENT_LENGTH' => '691'     'HTTP_CONNECTION' => 'close'     'HTTP_HOST' => 'icenter.winbackloyalty.com'     'HTTP_X_FORWARDED_PROTO' => 'https'     'HTTP_X_FORWARDED_PORT' => '443'     'HTTP_X_FORWARDED_FOR' => '54.185.22.184'     'HTTP_X_REAL_IP' => '54.185.22.184'     'REDIRECT_STATUS' => '200'     'SERVER_NAME' => 'icenter.winbackloyalty.com'     'SERVER_PORT' => '443'     'SERVER_ADDR' => '192.168.131.250'     'REMOTE_PORT' => '49366'     'REMOTE_ADDR' => '192.168.131.233'     'SERVER_SOFTWARE' => 'nginx/1.10.3'     'GATEWAY_INTERFACE' => 'CGI/1.1'     'HTTPS' => 'on'     'REQUEST_SCHEME' => 'https'     'SERVER_PROTOCOL' => 'HTTP/1.0'     'DOCUMENT_ROOT' => '/var/www/iwinback-production/web'     'DOCUMENT_URI' => '/index.php'     'REQUEST_URI' => '/webhooks/mandrill/sent'     'SCRIPT_NAME' => '/index.php'     'CONTENT_LENGTH' => '691'     'CONTENT_TYPE' => 'application/x-www-form-urlencoded'     'REQUEST_METHOD' => 'POST'     'QUERY_STRING' => ''     'SCRIPT_FILENAME' => '/var/www/iwinback-production/web/index.php'     'FCGI_ROLE' => 'RESPONDER'     'PHP_SELF' => '/index.php'     'REQUEST_TIME_FLOAT' => 1554978431.4443     'REQUEST_TIME' => 1554978431 ]
+
+
+$_GET = []
+
+$_POST = [
+    'mandrill_events' => '[{\"event\":\"send\",\"_id\":\"3fe6145c0ef24a879d747a2659770607\",\"msg\":{\"ts\":1554978101,\"subject\":\"Merhaba,lig heyecanini youwinde yasayin! Size ozel 150 TL\'ye kadar %100 bedava bahis sansini kacirmayin!\",\"email\":\"emrullahsecginn@hotmail.com\",\"tags\":[],\"opens\":[],\"clicks\":[],\"state\":\"sent\",\"smtp_events\":[],\"subaccount\":null,\"resends\":[],\"reject\":null,\"_id\":\"3fe6145c0ef24a879d747a2659770607\",\"sender\":\"contact@hepsibahisvip.com\",\"template\":null},\"ts\":1554978101},{\"event\":\"send\",\"_id\":\"e0c19f45f49b47d59fba0ac64ac1b389\",\"msg\":{\"ts\":1554978304,\"subject\":\"Merhaba,lig heyecanini youwinde yasayin! Size ozel 150 TL\'ye kadar %100 bedava bahis sansini kacirmayin!\",\"email\":\"gokay50200@hotmail.com\",\"tags\":[],\"opens\":[],\"clicks\":[],\"state\":\"sent\",\"smtp_events\":[],\"subaccount\":null,\"resends\":[],\"reject\":null,\"_id\":\"e0c19f45f49b47d59fba0ac64ac1b389\",\"sender\":\"contact@hepsibahisvip.com\",\"template\":null},\"ts\":1554978304}]'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_X_MANDRILL_SIGNATURE' => 'utIpGA77Af+nix8Vd/clusXBIgo='
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mandrill-Webhook/1.0'
+    'HTTP_CONTENT_LENGTH' => '1352'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'icenter.winbackloyalty.com'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_FORWARDED_FOR' => '34.208.126.125'
+    'HTTP_X_REAL_IP' => '34.208.126.125'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'icenter.winbackloyalty.com'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '192.168.131.250'
+    'REMOTE_PORT' => '47886'
+    'REMOTE_ADDR' => '192.168.131.233'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'HTTPS' => 'on'
+    'REQUEST_SCHEME' => 'https'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'DOCUMENT_ROOT' => '/var/www/iwinback-production/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/webhooks/mandrill/sent'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '1352'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/var/www/iwinback-production/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1554978313.5625
+    'REQUEST_TIME' => 1554978313
+]
