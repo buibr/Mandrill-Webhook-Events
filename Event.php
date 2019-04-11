@@ -51,6 +51,11 @@ class Event {
     private $location;
 
     /**
+     * 
+     */
+    private $user_agent_parsed;
+
+    /**
      * Initiate this class
      */
     public function __construct( $data = null ){
@@ -78,7 +83,12 @@ class Event {
         if(empty($data['msg'])){
             throw new \buibr\MandrillEvents\Exceptions('Invalid message sent.');
         }
-        $this->msg = new EventMsg($data['msg']);
+
+        $this->msg          = new EventMsg($data['msg']);
+        $this->user_agent   = isset($data['user_agent']) ? $data['user_agent'] : null;
+        $this->ip           = isset($data['ip']) ? $data['ip'] : null;
+        $this->location     = isset($data['location']) ? $data['location'] : null;
+        $this->user_agent_parsed = isset($data['user_agent_parsed']) ? $data['user_agent_parsed'] : null;
 
         return $this;
     }
@@ -135,7 +145,7 @@ class Event {
     }
 
     /**
-     * 
+     *  sent, rejected, spam, unsub, bounced, or soft-bounced
      */
     public function getStatus()
     {
