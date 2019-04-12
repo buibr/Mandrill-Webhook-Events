@@ -98,7 +98,7 @@ class Event {
      * Check if event is opent or not.
      */
     public function isSent() {
-        return !empty($this->event === 'sent');
+        return ($this->event === 'sent' || $this->msg->state === 'sent');
     }
 
 
