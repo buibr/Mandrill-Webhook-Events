@@ -85,4 +85,20 @@ class Request {
     }
 
 
+
+    /**
+     * Return all events
+     */
+    public function getEvents() {
+        return $this->__events;
+    }
+
+
+
+    /**
+     * Return request data.
+     */
+    public function getData() {
+        return $this->__data;
+    }
 }
