@@ -1,6 +1,6 @@
 {
-    "name": "buirb/mandrill-webhook-events-php",
-    "description": "Mandrill webhook events handlerr for php",
+    "name": "buibr/mandrill-webhook-events-php",
+    "description": "Mandrill webhook events handlers",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -9,7 +9,8 @@
         "mandrill events php",
         "mandrill webhook",
         "webhook",
-        "events"
+        "events",
+        "php mandrill"
     ],
     "authors": [
         {
