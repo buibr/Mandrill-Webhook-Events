@@ -3,7 +3,7 @@
 <h4>Install with composer</h4>
 
 ```terminal
-composer requre buibr/Mandrill-Webhook-Events
+composer requre buibr/MandrillEvents
 ```
 
 <h4>Usage:</h4> 
