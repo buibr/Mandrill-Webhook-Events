@@ -1,9 +1,9 @@
-# budget-sms-php
+# Mandrill-Webhook-Events
 
 <h4>Install with composer</h4>
 
 ```terminal
-composer requre buibr/budget-sms-php
+composer requre buibr/Mandrill-Webhook-Events
 ```
 
 <h4>Usage:</h4> 
